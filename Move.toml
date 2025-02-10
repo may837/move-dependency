@@ -1,0 +1,37 @@
+[package]
+name = "move-dependency"
+version = "0.0.0"
+
+[addresses]
+std = "0x1"
+move_dependency = "f8a4e8d3d9a2792cba3efa522675ef19eef4967562dd0cbeb6e0c78d86f0b24e"
+
+[dev-addresses]
+move_dependency = "0x2"
+
+# [dependencies.MoveStdlib]
+# git = "https://github.com/aptos-labs/aptos-core.git"
+# subdir = "aptos-move/framework/move-stdlib"
+# rev = "6d375306122da45a38eb9a6c95625ce2b7f64cbc"
+
+# [dependencies.AptosStdlib]
+# git = "https://github.com/aptos-labs/aptos-core.git"
+# subdir = "aptos-move/framework/aptos-stdlib"
+# rev = "6d375306122da45a38eb9a6c95625ce2b7f64cbc"
+
+# [dependencies.AptosFramework]
+# git = "https://github.com/aptos-labs/aptos-core.git"
+# subdir = "aptos-move/framework/aptos-framework"
+# rev = "985f19d40457a5f09f2d741b1feca6bf7ba1f8a6"
+
+# [dependencies.FixedPoint64]
+# git = "https://github.com/ThalaLabs/fixed_point64.git"
+# rev = "0af3b4ebc2c6c05b128109468c32f1c35c8ab227"
+
+[dependencies.Liquidswap]
+git = "https://github.com/pontem-network/liquidswap.git"
+rev = "v0.4.0"
+
+[dependencies.OverflowingMath]
+git = "https://github.com/pontem-network/overflowing-math.git"
+rev = "v0.2.0"
